@@ -18,10 +18,10 @@ export default function Footer() {
                 <p>© {new Date().getFullYear()} <a href="https://prebuiltui.com" target="_blank">Portfolio</a> • Developed by <a href="https://themewagon.com" target="_blank">Vladimir</a> • All rights reserved.</p>
                 <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
                     <li>
-                        <a href="https://github.com/vladimirrodaly" target="_blank">GitHub</a>
+                        <a href="https://github.com/vladimirbruno" target="_blank">GitHub</a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/vladimir-rodaly-joseph-68b42324a" target="_blank">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/vladimir-bruno-joseph-68b42324a" target="_blank">LinkedIn</a>
                     </li>
                     <li><a href="#!">Twitter</a></li>
                 </ul>

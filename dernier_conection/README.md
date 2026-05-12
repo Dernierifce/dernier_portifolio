@@ -87,4 +87,4 @@ dernier_portifolio/
 
 ## Autor
 
-Dernier Rodaly
+Dernier Bruno
