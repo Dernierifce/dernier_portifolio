@@ -1,36 +1,36 @@
 export default function About() {
     const tools = [
-        { name: 'vscode', icon: './assets/vscode.png', },
-        { name: 'firebase', icon: './assets/firebase.png', },
-        { name: 'mongodb', icon: './assets/mongodb.png', },
-        { name: 'figma', icon: './assets/figma.png', },
-        { name: 'git', icon: './assets/git.png', },
+        { name: 'VS Code', icon: './assets/vscode.png', },
+        { name: 'Firebase', icon: './assets/firebase.png', },
+        { name: 'MongoDB', icon: './assets/mongodb.png', },
+        { name: 'Figma', icon: './assets/figma.png', },
+        { name: 'Git', icon: './assets/git.png', },
     ];
 
     const data = [
         {
-            name: 'Languages',
+            name: 'Linguagens',
             icon1: './assets/code-icon.png',
             icon2: './assets/code-icon-dark.png',
-            description: 'HTML, CSS, JavaScript React Js, Next Js',
+            description: 'HTML, CSS, JavaScript, React e Next.js',
         },
         {
-            name: 'Education',
+            name: 'Formação',
             icon1: './assets/edu-icon.png',
             icon2: './assets/edu-icon-dark.png',
-            description: 'B.Tech in Computer Science',
+            description: 'Tecnologia da informação e desenvolvimento web',
         },
         {
-            name: 'Projects',
+            name: 'Projetos',
             icon1: './assets/project-icon.png',
             icon2: './assets/project-icon-dark.png',
-            description: 'Built more than 5 projects',
+            description: 'Projetos acadêmicos e portfólios digitais',
         },
     ];
     return (
         <div id="about" className="w-full px-[12%] py-10 scroll-mt-20">
-            <h4 className="text-center mb-2 text-lg font-Ovo">Introduction</h4>
-            <h2 className="text-center text-5xl font-Ovo">About me</h2>
+            <h4 className="text-center mb-2 text-lg font-Ovo">Introdução</h4>
+            <h2 className="text-center text-5xl font-Ovo">Sobre mim</h2>
 
             <div className="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
                 <div className="max-w-max mx-auto relative">
@@ -42,7 +42,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="flex-1">
-                    <p className="mb-10 max-w-2xl font-Ovo">I am an experienced frontend developer with over 5 years of professional experience in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth..</p>
+                    <p className="mb-10 max-w-2xl font-Ovo">Sou desenvolvedor front-end focado em interfaces claras, responsivas e fáceis de usar. Ao longo da minha trajetória, trabalhei em contextos acadêmicos e profissionais, sempre buscando entregar soluções visuais consistentes e funcionais.</p>
 
                     <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
                         {data.map((data) => (
@@ -54,7 +54,7 @@ export default function About() {
                             </li>
                         ))}
                     </ul>
-                    <h4 className="my-6 text-gray-700 font-Ovo dark:text-white/80">Tools i use</h4>
+                    <h4 className="my-6 text-gray-700 font-Ovo dark:text-white/80">Ferramentas que uso</h4>
 
                     <ul className="flex items-center gap-3 sm:gap-5">
                         {tools.map((tool) => (
