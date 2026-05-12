@@ -1,40 +1,90 @@
-# Eliana - React JS Portfolio Template
-#### Preview
+# Dernier Portfolio
 
- - [Demo](https://themewagon.github.io/eliana-react/)
+Portfólio pessoal desenvolvido com React e Vite.
 
-#### Download
- - [Download from ThemeWagon](https://themewagon.com/themes/eliana-react/)
+## Tecnologias
 
-## Getting Started
+- React
+- Vite
+- Tailwind CSS
+- Lenis
 
-1. Clone Repository
-```
-git clone https://github.com/themewagon/eliana-react.git
-```
-2. Install Dependencies
-```
-npm i
-```
-3. Run the development server:
+## Como rodar localmente
+
+1. Clone o repositório:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Dernierifce/dernier_portifolio.git
 ```
 
-## Author 
-```
-Design and code is completely written by PrebuiltUI and development team. 
+2. Entre na pasta do projeto:
+
+```bash
+cd dernier_portifolio
 ```
 
-## License
+3. Instale as dependências:
 
- - Design and Code is Copyright &copy; <a href="https://prebuiltui.com/" target="_blank">PrebuiltUI</a>
- - Licensed cover under [MIT]
- - Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+```bash
+npm install
+```
+
+4. Inicie o servidor de desenvolvimento:
+
+```bash
+npm run dev -- --host 0.0.0.0
+```
+
+5. Abra no navegador:
+
+```text
+http://localhost:5173/
+```
+
+## Build de produção
+
+```bash
+npm run build
+```
+
+## Deploy no GitHub Pages
+
+1. Instale a dependência de deploy, se ainda não tiver:
+
+```bash
+npm install --save-dev gh-pages
+```
+
+2. Adicione os scripts abaixo no arquivo `package.json` do projeto:
+
+```json
+"scripts": {
+	"dev": "vite",
+	"build": "vite build",
+	"preview": "vite preview",
+	"predeploy": "npm run build",
+	"deploy": "gh-pages -d dist"
+}
+```
+
+3. Execute o deploy:
+
+```bash
+npm run deploy
+```
+
+4. No GitHub, ative o Pages apontando para a branch `gh-pages`.
+
+## Estrutura
+
+```text
+dernier_portifolio/
+├── index.html
+├── package.json
+├── public/
+└── src/
+```
+
+## Autor
+
+Dernier Rodaly
