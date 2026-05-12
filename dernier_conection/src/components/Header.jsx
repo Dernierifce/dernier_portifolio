@@ -3,11 +3,11 @@ export default function Header() {
         <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
             <img src="./assets/profile-img.png" alt="" className="rounded-full w-32" />
             <h3 className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo">
-                Hi! I&apos;m Vladimir Joseph
+                Hi! I&apos;m Dernier Bruno
                 <img src="./assets/hand-icon.png" alt="" className="w-6 mb-1" />
             </h3>
             <h1 className="text-3xl sm:text-6xl lg:text-[66px] font-Ovo">
-                Frontend web developer based in Fortaleza.
+                Tecnico de TI no IFCE
             </h1>
             <p className="max-w-2xl mx-auto font-Ovo">
                 I am a front-end developer from Fortaleza, Brazil, with 5 years of experience in various companies and institutions such as IFCE, IREDE, and Apple Academy.
